@@ -7,10 +7,6 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Font;
-import javafx.scene.text.TextAlignment;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import java.io.IOException;
 
@@ -21,7 +17,6 @@ public class HelloApplication extends Application {
     private Button displayGroceriesButton;
     private Button balanceButton;
     private Label titleLabel;
-    private Label messageLabel;
 
     @Override
     public void start(Stage stage) throws IOException {
@@ -67,9 +62,6 @@ public class HelloApplication extends Application {
 
     public static void main(String[] args) {
         launch();
-
-
-
 
     }
 }
