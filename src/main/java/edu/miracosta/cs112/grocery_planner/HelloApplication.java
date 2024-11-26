@@ -4,7 +4,8 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ public class HelloApplication extends Application {
 
     private Stage primaryStage; // Main stage to switch scenes
     private List<String> groceries = new ArrayList<>(); // Backend list to store grocery items
-    private double balance = 100.0; // Example balance
+    private double balance = 291.0; // Example balance
 
     @Override
     public void start(Stage stage) {
@@ -43,11 +44,21 @@ public class HelloApplication extends Application {
         displayGroceriesButton.setOnAction(e -> showDisplayGroceriesPage());
         balanceButton.setOnAction(e -> showBalancePage());
 
-        VBox layout = new VBox(10);
-        layout.setPadding(new Insets(15));
+        VBox layout = new VBox(15);
+        layout.setAlignment(javafx.geometry.Pos.CENTER);
         layout.getChildren().addAll(titleLabel, addItemButton, displayGroceriesButton, balanceButton);
+        layout.setBackground(Background.EMPTY); // Ensure VBox doesn't obscure StackPane
 
-        Scene scene = new Scene(layout, 320, 240);
+        layout.setPadding(new Insets(20));
+        StackPane coloredBox = new StackPane(layout);
+        coloredBox.setBackground(new Background(new BackgroundFill(
+                Color.LIGHTBLUE, CornerRadii.EMPTY, Insets.EMPTY
+        )));
+        coloredBox.setPadding(new Insets(10));
+        coloredBox.setStyle("-fx-border-color: black; -fx-border-width: 5;");
+
+
+        Scene scene = new Scene(coloredBox, 350, 300);
         primaryStage.setScene(scene);
     }
 
