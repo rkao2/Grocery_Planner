@@ -1,6 +1,6 @@
 # Grocery_Planner
 A Grocery Planner is an application designed to help users organize and manage their grocery shopping. It allows users to add items they need to buy, track the prices, and manage their budget for groceries.
-
+Inspiration: As a college student trying to budget effectively, this project also reflects my personal experiences and challenges, making it both relatable and impactful
 
 Item List Creation: Users can add items they need to buy along with their prices. They may also categorize items or mark them as essential or optional.
 
@@ -15,3 +15,4 @@ Total Cost Calculation: The app can automatically calculate the total cost of al
 Display and Print Shopping List: Once the user has added all their items, they can view a summary list. Some apps even offer the option to print or share the list.
 
 Additional Features: Some grocery planners may include reminders, recipe ideas, or integration with online stores.
+![Dec-10-2024 17-00-26.gif](../../../../Applications/Dec-10-2024%2017-00-26.gif)
