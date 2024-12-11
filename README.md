@@ -15,4 +15,6 @@ Total Cost Calculation: The app can automatically calculate the total cost of al
 Display and Print Shopping List: Once the user has added all their items, they can view a summary list. Some apps even offer the option to print or share the list.
 
 Additional Features: Some grocery planners may include reminders, recipe ideas, or integration with online stores.
+
+gif: 
 ![Dec-10-2024 17-00-26.gif](../../../../Applications/Dec-10-2024%2017-00-26.gif)
