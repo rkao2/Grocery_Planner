@@ -17,3 +17,4 @@ Display and Print Shopping List: Once the user has added all their items, they c
 
 Additional Features: Some grocery planners may include reminders, recipe ideas, or integration with online stores.
 
+![Grocery_Planner](demo.gif)
